@@ -38,11 +38,14 @@ jsproxy_config({
       hidden: true,
       lines: {
         // 收费版（高权重）
-        'jsp.oldmanpushcar.workers.dev': 4,
+        //'jsp.oldmanpushcar.workers.dev': 4,
 
         // 免费版（低权重，分摊一些成本）
         // 每个账号每天 10 万次免费请求，但有频率限制
-        'jsp.oldmanpushcar.workers.dev': 1,
+        'a1.oldmanpushcar.workers.dev': 1,
+        'a2.oldmanpushcar.workers.dev': 1,
+        'a3.oldmanpushcar.workers.dev': 1,
+        'a4.oldmanpushcar.workers.dev': 1,
       }
     }
   },
